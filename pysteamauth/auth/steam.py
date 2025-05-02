@@ -288,8 +288,8 @@ class Steam:
 
     async def _finalize_login(self, refresh_token: str, sessionid: str) -> FinalizeLoginStatus:
         headers = {
-            "Referer": "https://steamcommunity.com/",
-            "Origin": "https://steamcommunity.com",
+            'Referer': 'https://steamcommunity.com/',
+            'Origin': 'https://steamcommunity.com'
         }
         response = await self._requests.text(
             method='POST',
