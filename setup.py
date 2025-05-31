@@ -2,7 +2,7 @@ import setuptools
 from setuptools import setup
 
 requirements = [
-    'aiohttp==3.10.2',
+    'aiohttp',
     'protobuf==5.28.2',
     'pydantic==1.9',
     'rsa==4.7',
